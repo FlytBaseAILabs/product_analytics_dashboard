@@ -5,15 +5,6 @@
 -- Purpose: Analytics for rental business (customers, rentals, payments)
 -- ============================================================================
 
--- Drop existing tables and sequences (optional - use if recreating from scratch)
-DROP TABLE IF EXISTS payment CASCADE;
-DROP TABLE IF EXISTS rental CASCADE;
-DROP TABLE IF EXISTS customer CASCADE;
-
-DROP SEQUENCE IF EXISTS customer_customer_id_seq CASCADE;
-DROP SEQUENCE IF EXISTS rental_rental_id_seq CASCADE;
-DROP SEQUENCE IF EXISTS payment_payment_id_seq CASCADE;
-
 -- ============================================================================
 -- CUSTOMER TABLE
 -- ============================================================================
