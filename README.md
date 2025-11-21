@@ -1,4 +1,5 @@
 # Supabase Mcp Config: 
+```
 {
   "mcpServers": {
     "supabase": {
@@ -12,3 +13,4 @@
     }
   }
 }
+```
